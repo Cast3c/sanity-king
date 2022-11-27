@@ -1,0 +1,13 @@
+.container1 {
+    width: 100vw;
+    height: 100vh;
+    backdrop-filter: blur(20px);
+    background-image:  linear-gradient(rgba(61, 115, 80, 0.5), rgba(29, 64, 54, 0.9)),url('../media/img/Arcabuco.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden !important;
+}
+
+/*
+
+*/

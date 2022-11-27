@@ -1,0 +1,22 @@
+.contenedorPyS{
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+   box-shadow: 3px 4px 10px rgba(8, 12, 38, 0.7); 
+   margin-left: 2rem;
+   color: white;
+   background-image: linear-gradient(to bottom right, rgba(8, 12, 38, 0.9), rgba(29, 64, 54, 0.9));
+   border: none;
+}
+
+.button{
+    background-color: #3d7350;
+    border: none;
+    box-shadow: 2px 3px 5px rgba(8, 12, 38, 0.7);
+}
