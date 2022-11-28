@@ -12,8 +12,7 @@
     width: 50vw;
     min-height: 85vh;
     border-right: 25px solid green;
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter:blur(20px);
+    -webkit-backdrop-filter :blur(20px);
     border-radius: 3rem 0 0 3rem;
     float: left;
 }
@@ -43,7 +42,7 @@
 
 .left-landing>h1 {
     font-family: 'Gill Sans MT';
-    font-size: 8npm rem;
+    font-size: 8rem;
     font-weight: 700;
 }
 
