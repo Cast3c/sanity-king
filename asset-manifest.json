@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/sanity-king/static/css/main.fbf4a9e4.css",
-    "main.js": "/sanity-king/static/js/main.5e48b891.js",
+    "main.css": "/sanity-king/static/css/main.b33857ee.css",
+    "main.js": "/sanity-king/static/js/main.9c5f19cf.js",
     "static/js/787.703fbbb7.chunk.js": "/sanity-king/static/js/787.703fbbb7.chunk.js",
     "static/media/Arcabuco.jpg": "/sanity-king/static/media/Arcabuco.1bcedb8d0f7d6b8b94fc.jpg",
     "static/media/Aseo.jpg": "/sanity-king/static/media/Aseo.32db0f11e4aabea783ba.jpg",
     "static/media/Plagas.jpeg": "/sanity-king/static/media/Plagas.a05e7c074cfb34ad3101.jpeg",
     "static/media/Mantenimiento.jpg": "/sanity-king/static/media/Mantenimiento.9ea2dc6b1f89bdec3c4d.jpg",
     "index.html": "/sanity-king/index.html",
-    "main.fbf4a9e4.css.map": "/sanity-king/static/css/main.fbf4a9e4.css.map",
-    "main.5e48b891.js.map": "/sanity-king/static/js/main.5e48b891.js.map",
+    "main.b33857ee.css.map": "/sanity-king/static/css/main.b33857ee.css.map",
+    "main.9c5f19cf.js.map": "/sanity-king/static/js/main.9c5f19cf.js.map",
     "787.703fbbb7.chunk.js.map": "/sanity-king/static/js/787.703fbbb7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fbf4a9e4.css",
-    "static/js/main.5e48b891.js"
+    "static/css/main.b33857ee.css",
+    "static/js/main.9c5f19cf.js"
   ]
 }
