@@ -114,6 +114,7 @@
     margin-top: 20vh;
 }
 
+
 @media (max-width: 1440px) {
     .contenido {
         padding-top: 5vh;        
@@ -130,7 +131,7 @@
     }
     
     .aboutUsSanity {
-        font-size: 5.5rem;
+        font-size: 5rem;
         margin-top: -80vh;
         margin-left: 20vw;
         -webkit-text-stroke:3.5px green;
@@ -138,8 +139,8 @@
     
     .aboutUsKing {
         margin-top: -80vh;
-        margin-left: 44.5vw;
-        font-size: 5.5rem;
+        margin-left: 43vw;
+        font-size: 5rem;
         -webkit-text-stroke: 2.5px white;
     }
 
@@ -148,7 +149,7 @@
         margin-top: -24rem;
         margin-left: 4rem;
         color: white;
-        font-size: 3rem;
+        font-size: 2.8rem;
     }
     
     .aboutUsParaf{
@@ -157,7 +158,7 @@
         margin-top: -19rem;
         margin-left: 4.5rem;
         margin-right: 35rem;
-        font-size: 1.29rem;
+        font-size: 1.1rem;
     }
 
     .logoCarousel{
@@ -194,6 +195,82 @@
         font-weight: 700;
     }
     
+}
+
+@media (max-width: 1335px) {
+
+    .cuadro-contenido {
+        width: 87vw;
+        height: 80vh;
+    }
+    
+    .leftAboutUs {
+        height: 80vh;
+        max-width: 40%;
+    }
+    
+    .aboutUsSanity {
+        font-size: 5rem;
+        margin-top: -75vh;
+        margin-left: 20vw;
+    }
+    
+    .aboutUsKing {
+        margin-top: -75vh;
+        margin-left: 44.2vw;
+        font-size: 5rem;
+    }
+    
+    .aboutUsTitle{
+        position: absolute;
+        margin-top: -23rem;
+        margin-left: 4rem;
+        color: white;
+        font-size: 2rem;
+    }
+
+    .aboutUsParaf{
+        position: absolute;
+        color: white;
+        margin-top: -20rem;
+        margin-left: 4.5rem;
+        margin-right: 32rem;
+        font-size: 1.3rem;
+    }
+
+    .logoCarousel{
+        width: 27vw;
+        height: 55vh;
+        background-color: white;
+        position: absolute;
+        margin-left: 56vw;
+        margin-top: -60vh;
+        border-radius: 50%;
+        border: 5px solid green;
+        box-shadow: 5px 10px 20px rgba(8, 12, 38, 0.9);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    /*BORRAR*/
+    .sLogo{
+        margin-left: 5rem;
+        color: white;
+        -webkit-text-stroke: 2px green ;
+        text-shadow: 2px 3px 10px rgba(8, 12, 38, 0.9);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 8rem;
+        font-weight: 700;
+    }
+    /*BORRAR*/
+    .kLogo{
+        color: green;
+        -webkit-text-stroke: 2px white ;
+        text-shadow: 2px 3px 10px rgba(8, 12, 38, 0.9);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 8rem;
+        font-weight: 700;
+    }
 }
 
 @media (max-width: 1024px) {
