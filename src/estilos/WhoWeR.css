@@ -33,7 +33,7 @@
     color: white;
     -webkit-text-stroke: 4px green;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 8rem;
+    font-size: 7rem;
     font-weight: 700;
     position: absolute;
     margin-top: -80vh;
@@ -46,7 +46,7 @@
     color: green;
     -webkit-text-stroke: 3px white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 8rem;
+    font-size: 7rem;
     font-weight: 700;
     position: absolute;
 }
