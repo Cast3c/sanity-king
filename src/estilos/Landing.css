@@ -12,6 +12,7 @@
     width: 50vw;
     min-height: 85vh;
     border-right: 25px solid green;
+    -webkit-backdrop-filter: blur(20px);
     backdrop-filter: blur(20px);
     border-radius: 3rem 0 0 3rem;
     float: left;
@@ -32,7 +33,6 @@
 }
 
 .left-landing>h1 {
-    font-family: 'Gill Sans MT';
     font-size: 8rem;
     font-weight: 700;
 }
@@ -71,7 +71,6 @@
 }
 
 .carousel-caption>h5 {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 3rem;
     font-weight: 700;
     color: white;
@@ -82,7 +81,6 @@
 
 .carousel-caption>p {
     padding: 0.5rem;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 1.2rem;
     font-weight: 400;
     color: white;
@@ -173,7 +171,6 @@
     }
 
     .left-landing>h1 {
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         font-size: 5rem;
         font-weight: 700;
     }
@@ -212,7 +209,6 @@
     }
 
     .carousel-caption>h5 {
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         font-size: 3rem;
         font-weight: 700;
         color: white;
@@ -223,7 +219,6 @@
 
     .carousel-caption>p {
         padding: 0.5rem;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         font-size: 1.2rem;
         font-weight: 400;
         color: white;
@@ -314,7 +309,6 @@
     }
 
     .left-landing>h1 {
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         font-size: 4rem;
         font-weight: 700;
     }
@@ -353,7 +347,6 @@
     }
 
     .carousel-caption > h5 {
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         font-size: 2.4rem;
         font-weight: 700;
         color: white;
@@ -364,7 +357,6 @@
 
     .carousel-caption > p {
         padding: 0.5rem;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         font-size: 0.8rem;
         font-weight: 400;
         color: white;
