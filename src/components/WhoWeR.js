@@ -7,7 +7,6 @@ export const WhoWeR = () => {
       <div className="cuadro-contenido">
         <div className="leftAboutUs"></div>
         <div className="rightAboutUs"></div>
-        
         <h3 className="aboutUsTitle">Lorem Ipsum...</h3>
         <p className="aboutUsParaf">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque

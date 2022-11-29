@@ -22,6 +22,16 @@
     animation-timing-function: ease-in-out;
 }
 
+.cuadro-contenido >h1{
+    position: absolute;
+    color: white;
+    -webkit-text-stroke: 4px green;
+    font-size: 7rem;
+    font-weight: 700;
+    margin-top: -80vh;
+    margin-left: 19.2vw;
+}
+
 .leftAboutUs {
     height: 80vh;
     max-width: 40%;
