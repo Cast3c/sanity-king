@@ -16,6 +16,9 @@
     background-repeat: no-repeat;
     background-size: cover;
     animation: slideBg 20s infinite 0s;
+    -webkit-animation: slideBg 20s infinite 0s;
+    animation: slideBg 20s infinite 0s;
+    -webkit-animation-timing-function: ease-in-out;
     animation-timing-function: ease-in-out;
 }
 

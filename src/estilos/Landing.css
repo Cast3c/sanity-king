@@ -12,15 +12,6 @@
     width: 50vw;
     min-height: 85vh;
     border-right: 25px solid green;
-    filter: blur(20px);
-    border-radius: 3rem 0 0 3rem;
-    float: left;
-}
-
-.left-landing {
-    width: 50vw;
-    min-height: 85vh;
-    border-right: 25px solid green;
     backdrop-filter: blur(20px);
     border-radius: 3rem 0 0 3rem;
     float: left;
