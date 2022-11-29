@@ -2,15 +2,25 @@
     z-index: 0;
     width: 100vw;
     height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(8, 12, 38, 0.9)), to(rgba(29, 64, 54, 0.9)));
+    background-image: -o-linear-gradient(top left, rgba(8, 12, 38, 0.9), rgba(29, 64, 54, 0.9));
     background-image: linear-gradient(to bottom right, rgba(8, 12, 38, 0.9), rgba(29, 64, 54, 0.9));
 }
 
 .cuadro-contenido {
     width: 80vw;
     height: 80vh;
+    background-image: -webkit-gradient(linear, right top, left bottom, from(rgba(61, 115, 80, 0.9)), to(rgba(8, 12, 38, 0.9))), url('../media/img/Aseo.jpg');
+    background-image: -o-linear-gradient(top right, rgba(61, 115, 80, 0.9), rgba(8, 12, 38, 0.9)), url('../media/img/Aseo.jpg');
     background-image: linear-gradient(to bottom left, rgba(61, 115, 80, 0.9), rgba(8, 12, 38, 0.9)), url('../media/img/Aseo.jpg');
     background-position: center;
     background-repeat: no-repeat;
@@ -35,7 +45,8 @@
 .leftAboutUs {
     height: 80vh;
     max-width: 40%;
-    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+            backdrop-filter: blur(20px);
     padding-top: 3rem;
     padding-left: 18rem;
     color: white;
@@ -95,10 +106,17 @@
     margin-top: -65vh;
     border-radius: 50%;
     border: 5px solid green;
-    box-shadow: 5px 10px 20px rgba(8, 12, 38, 0.9);
+    -webkit-box-shadow: 5px 10px 20px rgba(8, 12, 38, 0.9);
+            box-shadow: 5px 10px 20px rgba(8, 12, 38, 0.9);
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 
 /*BORRAR*/
@@ -179,10 +197,17 @@
         margin-top: -65vh;
         border-radius: 50%;
         border: 5px solid green;
-        box-shadow: 5px 10px 20px rgba(8, 12, 38, 0.9);
+        -webkit-box-shadow: 5px 10px 20px rgba(8, 12, 38, 0.9);
+                box-shadow: 5px 10px 20px rgba(8, 12, 38, 0.9);
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        align-items: center;
-        justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
     }
     /*BORRAR*/
     .sLogo{
@@ -254,10 +279,17 @@
         margin-top: -60vh;
         border-radius: 50%;
         border: 5px solid green;
-        box-shadow: 5px 10px 20px rgba(8, 12, 38, 0.9);
+        -webkit-box-shadow: 5px 10px 20px rgba(8, 12, 38, 0.9);
+                box-shadow: 5px 10px 20px rgba(8, 12, 38, 0.9);
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        align-items: center;
-        justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
     }
     /*BORRAR*/
     .sLogo{
@@ -328,10 +360,17 @@
         margin-top: -60vh;
         border-radius: 50%;
         border: 5px solid green;
-        box-shadow: 5px 10px 20px rgba(8, 12, 38, 0.9);
+        -webkit-box-shadow: 5px 10px 20px rgba(8, 12, 38, 0.9);
+                box-shadow: 5px 10px 20px rgba(8, 12, 38, 0.9);
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        align-items: center;
-        justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
     }
     /*BORRAR*/
     .sLogo{
@@ -354,18 +393,41 @@
 
 
 
-@keyframes slideBg {
+@-webkit-keyframes slideBg {
     33% {
+        background-image: -webkit-gradient(linear, right top, left bottom, from(rgba(61, 115, 80, 0.9)), to(rgba(8, 12, 38, 0.9))), url('../media/img/Arcabuco.jpg');
         background-image: linear-gradient(to bottom left, rgba(61, 115, 80, 0.9), rgba(8, 12, 38, 0.9)), url('../media/img/Arcabuco.jpg');
     }
 
     66% {
+        background-image: -webkit-gradient(linear, right top, left bottom, from(rgba(61, 115, 80, 0.9)), to(rgba(8, 12, 38, 0.9))), url('../media/img/Mantenimiento.jpg');
         background-image: linear-gradient(to bottom left, rgba(61, 115, 80, 0.9), rgba(8, 12, 38, 0.9)), url('../media/img/Mantenimiento.jpg');
     }
 
     100% {
+        background-image: -webkit-gradient(linear, right top, left bottom, from(rgba(61, 115, 80, 0.9)), to(rgba(8, 12, 38, 0.9))), url('../media/img/Plagas.jpeg');
         background-image: linear-gradient(to bottom left, rgba(61, 115, 80, 0.9), rgba(8, 12, 38, 0.9)), url('../media/img/Plagas.jpeg');
     }
 }
 
 
+
+@keyframes slideBg {
+    33% {
+        background-image: -webkit-gradient(linear, right top, left bottom, from(rgba(61, 115, 80, 0.9)), to(rgba(8, 12, 38, 0.9))), url('../media/img/Arcabuco.jpg');
+        background-image: -o-linear-gradient(top right, rgba(61, 115, 80, 0.9), rgba(8, 12, 38, 0.9)), url('../media/img/Arcabuco.jpg');
+        background-image: linear-gradient(to bottom left, rgba(61, 115, 80, 0.9), rgba(8, 12, 38, 0.9)), url('../media/img/Arcabuco.jpg');
+    }
+
+    66% {
+        background-image: -webkit-gradient(linear, right top, left bottom, from(rgba(61, 115, 80, 0.9)), to(rgba(8, 12, 38, 0.9))), url('../media/img/Mantenimiento.jpg');
+        background-image: -o-linear-gradient(top right, rgba(61, 115, 80, 0.9), rgba(8, 12, 38, 0.9)), url('../media/img/Mantenimiento.jpg');
+        background-image: linear-gradient(to bottom left, rgba(61, 115, 80, 0.9), rgba(8, 12, 38, 0.9)), url('../media/img/Mantenimiento.jpg');
+    }
+
+    100% {
+        background-image: -webkit-gradient(linear, right top, left bottom, from(rgba(61, 115, 80, 0.9)), to(rgba(8, 12, 38, 0.9))), url('../media/img/Plagas.jpeg');
+        background-image: -o-linear-gradient(top right, rgba(61, 115, 80, 0.9), rgba(8, 12, 38, 0.9)), url('../media/img/Plagas.jpeg');
+        background-image: linear-gradient(to bottom left, rgba(61, 115, 80, 0.9), rgba(8, 12, 38, 0.9)), url('../media/img/Plagas.jpeg');
+    }
+}
