@@ -33,6 +33,7 @@
 }
 
 .aboutUsSanity {
+    position: absolute;
     color: white;
     -webkit-text-stroke: 4px green;
     font-size: 7rem;
